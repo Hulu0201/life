@@ -159,11 +159,11 @@ tuneR::plot(outputaudio)
 ``` r
 #  write 
 tdir <- getwd()
-tfile <- file.path(tdir, "puzzle.wav")
+tfile <- file.path(tdir, "puzzle.mp4")
 tuneR::writeWave(outputaudio, filename = tfile)
 ```
 
-![attached audio](puzzle.wav)
+![attached audio](puzzle.mp4)
 
 答案在音檔中 ***XJBKXXXVL***
 
